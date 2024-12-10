@@ -1,0 +1,31 @@
+[
+    {
+      "title": "M1: Store Setup & Configuration",
+      "description": "Initial admin setup, store configs, payment & shipping integration"
+    },
+    {
+      "title": "M2: Product & Inventory Management",
+      "description": "Product CRUD, digital uploads, inventory tracking & limited drops"
+    },
+    {
+      "title": "M3: Orders & Invoices",
+      "description": "Order management, invoice generation for AT/DE/CH, accounting exports"
+    },
+    {
+      "title": "M4: Analytics & Profit Reporting",
+      "description": "Sales analytics, profit calculations, reporting dashboard"
+    },
+    {
+      "title": "M5: Customer Browsing & Accounts",
+      "description": "Public storefront, user accounts, product filtering"
+    },
+    {
+      "title": "M6: Cart & Checkout",
+      "description": "Cart functionality, checkout flow, payment integration, pickup & digital delivery"
+    },
+    {
+      "title": "M7: Post-Purchase & User Dashboard",
+      "description": "Order history, invoice downloads, returns & support"
+    }
+  ]
+  

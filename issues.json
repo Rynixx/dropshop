@@ -1,0 +1,117 @@
+[
+    {
+      "title": "M1-Feature: Admin Authentication & Setup",
+      "body": "**Description:** Implement admin login with 2FA and profile setup.\n\n**Tasks:**\n- [ ] Frontend: Admin Login UI (React form, 2FA modal)\n- [ ] Backend: Auth endpoints (JWT, user model, 2FA codes)\n\n**Acceptance Criteria:**\n- Admin can log in securely.\n- 2FA required for admin account access.\n- Admin profile page accessible after login.",
+      "labels": ["frontend", "backend", "security"],
+      "milestone": "M1: Store Setup & Configuration"
+    },
+    {
+      "title": "M1-Feature: Store Configuration Forms",
+      "body": "**Description:** Allow admin to set company details, VAT ID, invoice format, currencies.\n\n**Tasks:**\n- [ ] Frontend: Store Config UI\n- [ ] Backend: Store Config Endpoints\n\n**AC:** Admin can save and edit store details that apply globally.",
+      "labels": ["frontend", "backend", "configuration"],
+      "milestone": "M1: Store Setup & Configuration"
+    },
+    {
+      "title": "M1-Feature: Payment & Shipping Integration",
+      "body": "**Description:** Integrate payment gateways (Stripe/PayPal) and shipping providers.\n\n**Tasks:**\n- [ ] Frontend: Payment Selection UI\n- [ ] Backend: Payment Gateway & Shipping Provider Setup\n\n**AC:** Admin can choose payment methods and shipping rules accessible at checkout.",
+      "labels": ["frontend", "backend", "integration"],
+      "milestone": "M1: Store Setup & Configuration"
+    },
+    {
+      "title": "M1-Feature: Roles & Permissions",
+      "body": "**Description:** Implement RBAC for admin users.\n\n**Tasks:**\n- [ ] Frontend: Role Management UI\n- [ ] Backend: Role-based access control logic\n\n**AC:** Different admin roles with restricted access to certain features.",
+      "labels": ["frontend", "backend", "security"],
+      "milestone": "M1: Store Setup & Configuration"
+    },
+    {
+      "title": "M2-Feature: Product Creation & Editing",
+      "body": "**Description:** Admin can create/edit physical & digital products.\n\n**Tasks:**\n- [ ] Frontend: Product Form UI\n- [ ] Backend: Product CRUD Endpoints\n\n**AC:** Products can be listed, created, edited, and deleted.",
+      "labels": ["frontend", "backend", "product-management"],
+      "milestone": "M2: Product & Inventory Management"
+    },
+    {
+      "title": "M2-Feature: Digital Product File Uploads",
+      "body": "**Description:** Secure file uploads for digital products.\n\n**Tasks:**\n- [ ] Frontend: Digital Upload UI\n- [ ] Backend: File Storage & Access Control\n\n**AC:** Digital products securely stored and retrievable post-purchase.",
+      "labels": ["frontend", "backend", "digital-products"],
+      "milestone": "M2: Product & Inventory Management"
+    },
+    {
+      "title": "M2-Feature: Inventory Tracking & Alerts",
+      "body": "**Description:** Track stock levels, alert admin when low.\n\n**Tasks:**\n- [ ] Frontend: Inventory Dashboard\n- [ ] Backend: Inventory Update & Alert System\n\n**AC:** Admin sees real-time inventory and receives low-stock notifications.",
+      "labels": ["frontend", "backend", "inventory"],
+      "milestone": "M2: Product & Inventory Management"
+    },
+    {
+      "title": "M2-Feature: Limited Edition Drops",
+      "body": "**Description:** Schedule limited product releases.\n\n**Tasks:**\n- [ ] Frontend: Limited Drop Countdown\n- [ ] Backend: Release Scheduling & Stock Lock\n\n**AC:** Limited items become available at specified times and sell out automatically.",
+      "labels": ["frontend", "backend", "limited-edition"],
+      "milestone": "M2: Product & Inventory Management"
+    },
+    {
+      "title": "M3-Feature: Order Management",
+      "body": "**Description:** Admin can view and update order statuses.\n\n**Tasks:**\n- [ ] Frontend: Order List & Detail Views\n- [ ] Backend: Order Status Endpoints\n\n**AC:** Admin can track all orders, change status, and handle refunds/returns.",
+      "labels": ["frontend", "backend", "orders"],
+      "milestone": "M3: Orders & Invoices"
+    },
+    {
+      "title": "M3-Feature: Invoice Generation (AT/DE/CH)",
+      "body": "**Description:** Auto-generate compliant invoices.\n\n**Tasks:**\n- [ ] Frontend: Invoice Preview UI\n- [ ] Backend: Invoice Service & Compliance Checks\n\n**AC:** Legally compliant invoices generated per order, downloadable by customers.",
+      "labels": ["frontend", "backend", "invoicing", "legal-compliance"],
+      "milestone": "M3: Orders & Invoices"
+    },
+    {
+      "title": "M3-Feature: Accounting Exports",
+      "body": "**Description:** Export invoices and orders to CSV/JSON.\n\n**Tasks:**\n- [ ] Frontend: Export Button & Modal\n- [ ] Backend: Export Endpoints\n\n**AC:** Admin can download data for accounting systems.",
+      "labels": ["frontend", "backend", "accounting"],
+      "milestone": "M3: Orders & Invoices"
+    },
+    {
+      "title": "M4-Feature: Sales Analytics Dashboard",
+      "body": "**Description:** Show sales charts, top products.\n\n**Tasks:**\n- [ ] Frontend: Analytics Charts\n- [ ] Backend: Analytics Aggregation Endpoints\n\n**AC:** Admin sees visual charts, trends, top-selling products.",
+      "labels": ["frontend", "backend", "analytics"],
+      "milestone": "M4: Analytics & Profit Reporting"
+    },
+    {
+      "title": "M4-Feature: Profit Calculation & Reporting",
+      "body": "**Description:** Show raw profit (revenue - cost).\n\n**Tasks:**\n- [ ] Frontend: Profit Reports UI\n- [ ] Backend: Profit Calculation Logic\n\n**AC:** Admin sees profit data per product/order.",
+      "labels": ["frontend", "backend", "profitability"],
+      "milestone": "M4: Analytics & Profit Reporting"
+    },
+    {
+      "title": "M5-Feature: Public Storefront & Browsing",
+      "body": "**Description:** Customers can browse products.\n\n**Tasks:**\n- [ ] Frontend: Catalog & Filtering UI\n- [ ] Backend: Public Product Listing\n\n**AC:** Products visible to all, searchable & filterable.",
+      "labels": ["frontend", "backend", "storefront"],
+      "milestone": "M5: Customer Browsing & Accounts"
+    },
+    {
+      "title": "M5-Feature: Customer Accounts & Authentication",
+      "body": "**Description:** Customer registration, login, profile.\n\n**Tasks:**\n- [ ] Frontend: Registration & Profile Pages\n- [ ] Backend: Customer Auth Endpoints\n\n**AC:** Customers can create accounts, log in, manage profiles.",
+      "labels": ["frontend", "backend", "authentication"],
+      "milestone": "M5: Customer Browsing & Accounts"
+    },
+    {
+      "title": "M6-Feature: Shopping Cart & Checkout Flow",
+      "body": "**Description:** Add to cart, checkout with shipping or pickup, handle payments.\n\n**Tasks:**\n- [ ] Frontend: Cart Page & Checkout Steps\n- [ ] Backend: Cart & Order Creation Endpoints\n\n**AC:** Customers can complete purchases end-to-end.",
+      "labels": ["frontend", "backend", "checkout"],
+      "milestone": "M6: Cart & Checkout"
+    },
+    {
+      "title": "M6-Feature: Digital Delivery & Pickup Notifications",
+      "body": "**Description:** Immediate digital access post-purchase, pickup notifications.\n\n**Tasks:**\n- [ ] Frontend: Digital Download Links\n- [ ] Backend: Digital Access Tokens & Pickup Alerts\n\n**AC:** Digital products available instantly; customers notified when pickup orders ready.",
+      "labels": ["frontend", "backend", "delivery"],
+      "milestone": "M6: Cart & Checkout"
+    },
+    {
+      "title": "M7-Feature: Order History & Invoices for Customers",
+      "body": "**Description:** Customers can view past orders, download invoices.\n\n**Tasks:**\n- [ ] Frontend: Order History Page\n- [ ] Backend: Order Retrieval Endpoints\n\n**AC:** Customers access order history and invoices anytime.",
+      "labels": ["frontend", "backend", "customer-dashboard"],
+      "milestone": "M7: Post-Purchase & User Dashboard"
+    },
+    {
+      "title": "M7-Feature: Support & Returns",
+      "body": "**Description:** Customers can request returns, contact support.\n\n**Tasks:**\n- [ ] Frontend: Return Request Form, Support Contact\n- [ ] Backend: Returns API\n\n**AC:** Customers initiate returns and get support directly.",
+      "labels": ["frontend", "backend", "support"],
+      "milestone": "M7: Post-Purchase & User Dashboard"
+    }
+  ]
+  
